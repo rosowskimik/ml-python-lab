@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "regex"
+version = "0.1.0"
+description = ""
+authors = ["Mikołaj Rosowski <m.rosowski1@wp.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+mypy = "^0.982"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
